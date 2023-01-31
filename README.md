@@ -28,12 +28,14 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/TheGnosticEn
 + [Foreword](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Foreword.asciidoc)
 + [Sponsors](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Sponsors.asciidoc)
 + Chapter 1: [Introduction](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Introduction.asciidoc)
++ Chapter 2: [Return to Chaos: Embracing Agile Squads](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ReturnToChaos.asciidoc)
 + Chapter 1: [Understanding Agile for the Enterprise: Key Principles and Practices](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AgileForTheEnterprise.asciidoc)
 + Chapter 2: [The Rise of the "Super Employee"](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/SuperEmployee.asciidoc)
++ Chapter 4: [Knowledge Leaders](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/SuperEmployee.asciidoc)
 + Chapter 3: [Harnessing the Power of Cloud Technologies and Low-Code Platforms](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/HarnessTheCloud.asciidoc)
-+ Chapter 4: The Importance of Measurement: Making Data-Driven Decisions
++ Chapter 4: [The Power of Data: Making Smarter Decisions]
 + Chapter 5: Bringing Teams Together
-+ Chapter 6: Knowledge Leaders
+
 + Chapter 7: Driving Employee and Customer Happiness
 + Chapter 8: Continuous Learning and Improvement
 + [Thanks](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Thanks.asciidoc)
