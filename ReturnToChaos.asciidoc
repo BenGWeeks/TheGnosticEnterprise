@@ -1,0 +1,15 @@
+== Return to Chaos: Embracing Agile Squads
+
+As organizations grow and expand, it can be tempting to focus on scale and efficiency at all costs. But in doing so, many companies sacrifice the agility and flexibility that once made them successful. They become bogged down by bureaucracy, silos, and slow decision-making, struggling to respond to changes in the market and customer needs.
+
+Enter Dunbar's Number{empty}footnote:[https://en.wikipedia.org/wiki/Dunbar%27s_number]. This concept, named after British anthropologist Robin Dunbar, suggests that there's a limit to the number of social relationships one person can effectively handle. It's estimated to be around 150 people. When organizations exceed this number, they start to lose the speed and flexibility they need to succeed.
+
+The solution is to break down the large organization into smaller, cross-functional teams of 6 to 10 people, also known as agile squads. These teams are empowered to take ownership of their projects and drive results, working together to deliver high-quality solutions at a higher cadence than their competitors.
+
+Agile squads are not only more efficient and effective, they also foster a culture of collaboration, innovation, and continuous improvement. By breaking down the silos between departments and functions, employees are able to share their knowledge and expertise, leading to new and innovative solutions.
+
+Building an agile organization isn't easy, but it's worth it. It takes a commitment to change, a willingness to embrace new ways of working, and a focus on collaboration and innovation. But the results speak for themselves. By breaking free from bureaucracy, you'll be able to deliver value like never before.
+
+In the next chapter, we'll explore the world of agile squads. We'll examine the key principles and practices of agile, and show you how to build cross-functional teams that are able to respond quickly to change. We'll also delve into the role of leadership in driving this change, and explore how managers can lead by example and inspire their teams to embrace a new way of working.
+
+So get ready to break free from bureaucracy and rediscover the agility that made you successful in the first place. The future of work is agile, and the time to embrace it is now!
