@@ -44,3 +44,6 @@ By measuring these metrics, companies can gain a comprehensive view of their per
 === Mission Control
 
 Having a dashboard that always shows your key metrics is crucial for making smart decisions based on data. The dashboard should be a one-stop-shop for all the important info you need to keep track of, updated in real-time. It should be easy to use and allow you to see trends, compare performance, and see how you're doing against your goals. It should also be flexible, so each team member can see the metrics that matter most to them. By having a dashboard that's always up-to-date, you can make sure everyone's on the same page and making decisions based on the latest info.
+
+.Example dashboard for the Delivery Mission Control
+image::Images/Delivery%20Mission%20Control.png[float=center,align=center]
