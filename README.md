@@ -31,7 +31,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/TheGnosticEn
 + Chapter 2: [Return to Chaos: Embracing Agile Squads](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ReturnToChaos.asciidoc)
 + Chapter 3: [Understanding Agile for the Enterprise: Key Principles and Practices](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AgileForTheEnterprise.asciidoc)
 + Chapter 4: [The Rise of the "Super Employee"](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/SuperEmployee.asciidoc)
-+ Chapter 5: [Knowledge Leaders](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/KnowledgeLeaders.asciidoc)
++ Chapter 5: [Philosopher Leaders](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/PhilosopherLeaders.asciidoc)
 + Chapter 6: [Harnessing the Power of Cloud Technologies and Low-Code Platforms](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/HarnessTheCloud.asciidoc)
 + Chapter 7: [The Power of Data: Making Smarter Decisions](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ThePowerOfData.asciidoc)
 + Chapter 8: [Automate Everything Unhuman](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AutomateEverythingUnhuman.asciidoc)
