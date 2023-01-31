@@ -1,5 +1,7 @@
 == The Power of Data
 
+image::AI-Images/The%20Power%20of%20Data%20Cube.png[float=center,align=center]
+
 Measurement is at the heart of any successful business. By tracking the right metrics, organizations can gain valuable insights into what's working, what's not, and where to focus their efforts for maximum impact. But to truly harness the power of data, organizations must be equipped with the right skills and processes to effectively inspect and analyze it.
 
 In this chapter, we'll delve into the world of measurement and show you how to use data to drive better outcomes. We'll cover the importance of measurement, and how it can help you make informed decisions that drive real impact. We'll examine the different types of data, and show you how to collect and analyze it to get the insights you need.
