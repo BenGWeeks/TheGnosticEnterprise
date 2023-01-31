@@ -26,3 +26,5 @@ The enterprise should consider the wider environment it resides in for it has a 
 In Stoic fashion, the Gnostic Enterprise will accept that is does not have complete control over external factors. It should concentrate on the capabilities it has to effect change. Through any challenges that come its’ way, it is an opportunity to collectively learn and improve.
 
 In conclusion, "The Gnostic Enterprise: Harnessing the Power of Knowledge and Innovation" provides a powerful framework for organizations to harness the power of Agile, AI, cloud technologies, and low-code platforms to drive growth and achieve their goals. By augmenting employees' effective intelligence with technology and AI, organizations can create a culture of continuous learning and improvement, empowering employees to drive real impact and deliver value to the business much quicker than ever before.
+
+> Don't be fooled by the futuristic artwork in this book, this is coming faster than you might think.
