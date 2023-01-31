@@ -1,5 +1,7 @@
 == Philosopher Leaders
 
+image::AI-Images/Philosopher%20Leaders.png[float=center,align=center]
+
 The concept of philosopher kings{empty}footnote:[Philosopher kings, https://en.wikipedia.org/wiki/Philosopher_king] has been around for centuries, and it's more relevant now than ever before. In today's rapidly changing business landscape, organizations need leaders who can see the big picture, understand complex systems, and turn insights into action. These leaders are the "philosopher kings" of the modern enterprise, and they are critical to driving success and staying ahead of the competition.
 
 In this chapter, we'll explore what it means to be a Philosopher Leader, and why this role is becoming increasingly important in today's business landscape. We'll look at the key traits, skills, and knowledge that make someone a Philosopher Leader, and why this role is so critical to the success of any organization.
