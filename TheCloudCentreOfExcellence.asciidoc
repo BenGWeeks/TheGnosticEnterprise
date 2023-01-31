@@ -1,5 +1,7 @@
 == Building a Cloud Centre of Excellence
 
+image::AI-Images/Centre%20of%20Excellence%2001.png[float=center,align=center]
+
 The cloud has revolutionized the way businesses operate, providing access to an abundance of resources and the ability to scale rapidly in response to changing demands. A Cloud Centre of Excellence (CCoE) is a central hub for cloud-related expertise, processes, and knowledge within an organization. This chapter will explore the importance of a CCoE and how to establish one within your organization.
 
 It’s essential that organizations have a centralized unit to manage cloud adoption and full utilization. A CCoE is an essential resource for organizations looking to optimize their cloud investments, reduce costs, and stay ahead of the competition. A CCoE ensures that cloud-related activities are executed consistently and securely across the organization, reducing the risk of cloud-related incidents.
