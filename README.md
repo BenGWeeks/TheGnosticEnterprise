@@ -30,11 +30,12 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/TheGnosticEn
 + Chapter 1: [Introduction](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Introduction.asciidoc)
 + Chapter 1: [Understanding Agile for the Enterprise: Key Principles and Practices](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AgileForTheEnterprise.asciidoc)
 + Chapter 2: [The Rise of the "Super Employee"](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/SuperEmployee.asciidoc)
-+ Chapter 3: Harnessing the Power of Cloud Technologies and Low-Code Platforms
++ Chapter 3: [Harnessing the Power of Cloud Technologies and Low-Code Platforms](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/HarnessTheCloud.asciidoc)
 + Chapter 4: The Importance of Measurement: Making Data-Driven Decisions
 + Chapter 5: Bringing Teams Together
-+ Chapter 6: Driving Employee and Customer Happiness
-+ Chapter 7: Continuous Learning and Improvement
++ Chapter 6: Knowledge Leaders
++ Chapter 7: Driving Employee and Customer Happiness
++ Chapter 8: Continuous Learning and Improvement
 + [Thanks](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Thanks.asciidoc)
 
 ## Source
