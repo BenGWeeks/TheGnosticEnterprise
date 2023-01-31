@@ -1,4 +1,4 @@
-# The Gnostic Enterprise
+# The Gnostic Enterprise: Harnessing the Power of Knowledge and Innovation
 
 ![The Gnostic Enterprise - Book Cover](https://user-images.githubusercontent.com/5950171/215666866-cd0e8f9d-a7f4-4d73-a814-9019237c261e.png)
 
