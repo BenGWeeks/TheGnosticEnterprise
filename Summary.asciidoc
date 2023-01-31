@@ -1,5 +1,7 @@
 == Summary: The Power of the Individual
 
+image::AI-Images/Augmented%20Employee.png[float=center,align=center]
+
 In this book, we have explored the various ways in which technology and AI can augment human intelligence, making us better equipped to tackle the challenges of the modern business landscape. We have seen how the rise of low-code platforms and cloud technologies, as well as the importance of continuous learning and improvement, are helping employees to become super-employees.
 
 At the same time, we have emphasized the importance of the individual, and how it is essential for employees to strive to provide value to their organizations, rather than be an unreasonable burden. The power of measurement has been discussed, and the need for organizations to develop the skills necessary to effectively inspect and analyze data to drive better outcomes.
