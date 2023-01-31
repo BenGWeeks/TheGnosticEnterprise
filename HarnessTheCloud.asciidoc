@@ -1,5 +1,7 @@
 == Harnessing the Power of Cloud Technologies and Low-Code Platforms
 
+image::AI-Images/Dyson%20Sphere.png[float=center,align=center]
+
 Welcome to the world of cloud and low-code, where organizations can create, launch, and manage solutions with lightning speed and ease! With these game-changing technologies, organizations can streamline their processes, increase collaboration and teamwork, and deliver top-notch solutions that exceed customer expectations.
 
 First, let's take a look at cloud technologies. They're changing the way we store and access information. Instead of storing data on physical servers in a single location, cloud computing lets us keep it on remote servers accessible from anywhere, anytime. This gives organizations greater flexibility and scalability, which is crucial in today's rapidly changing business landscape.
