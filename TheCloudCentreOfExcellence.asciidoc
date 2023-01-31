@@ -32,6 +32,10 @@ Collecting Ideas from customers, team members, and the business is crucial in dr
 
 Portfolio management is an important aspect for the Centre of Excellence to consider as it ensures that the work being done aligns with the overall strategic themes of the business. It's crucial to assess the impact vs cost of each project in the portfolio to determine which initiatives will deliver the most value to the company. This helps to organize work into a portfolio roadmap that outlines the priorities and helps to keep everyone focused on the bigger picture. It's important to regularly review the portfolio and make adjustments as needed, taking into account changes in the business environment and market conditions. This way, the Centre of Excellence can ensure that it continues to deliver the maximum value to the business.
 
+=== Architecture & Standards
+
+The Architecture & Standards group plays a helps ensure the success of the agile delivery squads. By creating a framework, blueprints, re-usable templates, and standards, the team can help the delivery squads deliver high-value, high-quality solutions at a high-cadence. This is important because the Architecture & Standards group can be the difference between teams being able to quickly and efficiently get solutions to production or being bogged down by the barriers of adhering to strict standards. By taking a facilitative approach, the Architecture & Standards group can empower teams to quickly deliver value to the business while still ensuring that the solutions are of high quality and meet all necessary requirements. By focusing on enabling teams to deliver value to the business, the Architecture & Standards group can help the company achieve its strategic vision.
+
 === Communities of Practice
 
 The CoE should be responsible for creating Communities of Practice (CoP) around topics such as AI, low-code, blockchain, automation, testing, DevOps, and agile. These CoPs should bring together experts from across the squads and organization to share knowledge and best practices.
