@@ -1,5 +1,7 @@
 # The Gnostic Enterprise
 
+![The Gnostic Enterprise - Book Cover](https://user-images.githubusercontent.com/5950171/215666866-cd0e8f9d-a7f4-4d73-a814-9019237c261e.png)
+
 Augment your companies competitive edge through the power of knowledge and innovation
 
 PLEASE NOTE: This book is still very much draft and subject to change.
