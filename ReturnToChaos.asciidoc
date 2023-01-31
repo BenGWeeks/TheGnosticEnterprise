@@ -1,5 +1,7 @@
 == Return to Chaos: Embracing Agile Squads
 
+image::AI-Images/Augmented%20Team.png[float=center,align=center]
+
 As organizations grow and expand, it can be tempting to focus on scale and efficiency at all costs. But in doing so, many companies sacrifice the agility and flexibility that once made them successful. They become bogged down by bureaucracy, silos, and slow decision-making, struggling to respond to changes in the market and customer needs.
 
 Enter Dunbar's Number{empty}footnote:[https://en.wikipedia.org/wiki/Dunbar%27s_number]. This concept, named after British anthropologist Robin Dunbar, suggests that there's a limit to the number of social relationships one person can effectively handle. It's estimated to be around 150 people. When organizations exceed this number, they start to lose the speed and flexibility they need to succeed.
