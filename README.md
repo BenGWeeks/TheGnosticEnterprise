@@ -37,7 +37,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/TheGnosticEn
 + Chapter 8: [Automate Everything Unhuman](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AutomateEverythingUnhuman.asciidoc)
 + Chapter 5: [Bringing Teams Together: The Power of Collaboration](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/BringingTeamsTogether.asciidoc)
 + Chapter 7: [Driving Employee and Customer Happiness](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/EmployeeAndCustomerHappiness.asciidoc)
-+ Chapter 8: Continuous Learning and Improvement
++ Chapter 8: [Continuous Learning and Improvement](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ContinuousLearningAndImprovement.asciidoc)
 + [Thanks](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Thanks.asciidoc)
 
 ## Source
