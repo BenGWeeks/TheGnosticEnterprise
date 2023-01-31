@@ -1,5 +1,7 @@
 == Automate Everything Unhuman
 
+image::AI-Images/Automate%20Everything%20Unhuman.png[float=center,align=center]
+
 > Or, Automating the Mundane: Freeing up Time for What Matters
 
 Have you ever had to do a task that felt so repetitive and boring that you just wanted to pull your hair out? Well, guess what? Machines are way better at doing those tasks than we are! And it’s time to embrace it.
