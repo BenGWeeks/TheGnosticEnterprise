@@ -1,4 +1,4 @@
-== The Power of Data
+== The Power of Data: Making Smarter Decisions
 
 image::AI-Images/The%20Power%20of%20Data%20Cube.png[float=center,align=center]
 
