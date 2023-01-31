@@ -33,9 +33,8 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/TheGnosticEn
 + Chapter 2: [The Rise of the "Super Employee"](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/SuperEmployee.asciidoc)
 + Chapter 4: [Knowledge Leaders](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/SuperEmployee.asciidoc)
 + Chapter 3: [Harnessing the Power of Cloud Technologies and Low-Code Platforms](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/HarnessTheCloud.asciidoc)
-+ Chapter 4: [The Power of Data: Making Smarter Decisions]
-+ Chapter 5: Bringing Teams Together
-
++ Chapter 4: [The Power of Data: Making Smarter Decisions](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ThePowerOfData.asciidoc)
++ Chapter 5: [Bringing Teams Together: The Power of Collaboration](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/BringingTeamsTogether.asciidoc)
 + Chapter 7: Driving Employee and Customer Happiness
 + Chapter 8: Continuous Learning and Improvement
 + [Thanks](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Thanks.asciidoc)
