@@ -1,5 +1,7 @@
 == Employee Happiness = Customer Happiness
 
+image::AI-Images/Happy%20Employees%20Happy%20Customers.png[float=center,align=center]
+
 In today's business world, it's easy to think of employees as just another resource to be used and optimized. But the reality is that employees are people, with lives, families, and personal goals outside of work. That's why it's so important to treat them as such. The goal should never be to extract maximum value over a short period of time, but to create a win-win situation where the individual learns, grows, and contributes to the company.
 
 In this chapter, we'll explore how companies can drive employee and customer happiness. It all starts with a focus on the individual. We must strive to provide value to the company and not be an unreasonable burden on others over an extended period. If that's the case, the company (or the other individuals that make up the company) should be free to disengage from staff who do not share in their values and ideals.
