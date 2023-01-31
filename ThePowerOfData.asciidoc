@@ -8,6 +8,13 @@ One of the most critical skills for effective data analysis is the ability to cr
 
 Technology and AI play a crucial role in helping organizations inspect and analyze large amounts of data. With the right tools and processes in place, you can harness the power of data to drive success for your business. But it's important to have a deep understanding of these tools and how to use them effectively. In this chapter, we'll show you how to choose the right technology and AI tools for your organization, and how to use them to gain valuable insights and make informed decisions.
 
+> Schrödinger's cat is a famous thought experiment in quantum mechanics that highlights the importance of measurement. In the experiment, a cat is placed in a box with a poisonous substance that may or may not be released, dependent on the state of a subatomic particle. Until the box is opened and the state of the particle is observed (we’ll save the interesting discussion of what constitutes observation for another day), the cat is in a state of superposition, where it is both alive and dead.
+> 
+> This experiment serves as an analogy for how measurement plays a crucial role in determining the outcome of events in the universe. It demonstrates that the universe only cares about what is measured, or observed. This concept applies not just in quantum mechanics but in the business world as well.
+> 
+> In a similar fashion, if we have a very “productive” employee locked in a room. Creating report after report with amazing insights - but if no-one is there to measure, to receive value from that effort, then he might as well of stayed at home!
+> The moral of Schrödinger's cat is that the act of measurement itself can change the outcome. The same is true in business. By measuring key metrics and using that information to drive change, you can create a virtuous cycle where continuous improvement leads to better results.
+
 === Key Metrics
 
 In addition to profit and revenue, a company should also measure key metrics in the following areas (these vary on a company to company basis but here are some to give you an idea):
