@@ -35,7 +35,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/TheGnosticEn
 + Chapter 3: [Harnessing the Power of Cloud Technologies and Low-Code Platforms](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/HarnessTheCloud.asciidoc)
 + Chapter 4: [The Power of Data: Making Smarter Decisions](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ThePowerOfData.asciidoc)
 + Chapter 5: [Bringing Teams Together: The Power of Collaboration](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/BringingTeamsTogether.asciidoc)
-+ Chapter 7: Driving Employee and Customer Happiness
++ Chapter 7: [Driving Employee and Customer Happiness](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/EmployeeAndCustomerHappiness.asciidoc)
 + Chapter 8: Continuous Learning and Improvement
 + [Thanks](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Thanks.asciidoc)
 
