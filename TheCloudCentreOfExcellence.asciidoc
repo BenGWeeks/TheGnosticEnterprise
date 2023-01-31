@@ -4,8 +4,6 @@ The cloud has revolutionized the way businesses operate, providing access to an 
 
 It’s essential that organizations have a centralized unit to manage cloud adoption and full utilization. A CCoE is an essential resource for organizations looking to optimize their cloud investments, reduce costs, and stay ahead of the competition. A CCoE ensures that cloud-related activities are executed consistently and securely across the organization, reducing the risk of cloud-related incidents.
 
-=== Remit of a Cloud Centre of Excellence
-
 Building a CCoE requires a dedicated team of experts who understand the organization’s cloud strategy and the tools, processes, and best practices that need to be in place to support it. A CCoE should be structured to deliver the following:
 
 - *Cloud governance*: Implementing policies and procedures that ensure cloud utilization is consistent, secure, and compliant with industry regulations.
@@ -18,11 +16,17 @@ Building a CCoE requires a dedicated team of experts who understand the organiza
 
 - *Cloud innovation*: Encouraging and promoting cloud-related innovation within the organization, leveraging the cloud to drive business growth and success.
 
+.An overview of the Cloud Centre of Excellence, part of the Gnostic Enterprise.
+image::Images/Value%20Delivery.png[float=center,align=center]
+
 === Strategic Vision
 
 Creating a Cloud Centre of Excellence (CoE) is a significant undertaking and it is crucial to ensure that its delivery is aligned with the strategic themes and vision of the business. The CoE should not just be an IT initiative, but should be aligned with the overall business goals and priorities, and therefore have representation from across the business.
 
 One way to ensure this alignment is to regularly review the strategic themes of the business and assess the CoE’s progress towards those themes. This will allow the CoE to make any necessary adjustments to ensure it is delivering value in line with the business’s priorities. Additionally, the CoE should consider the “bang for buck” when choosing what to undertake, ensuring that its efforts are focused on delivering the most value in the shortest amount of time.
+
+.Here we can see that by considering the alignment of Epics to Strategic Themes it helps us identify good candidates for delivery.
+image::Images/Strategic%20Themes.png[float=center,align=center,width=75%]
 
 === Idea Portal
 
@@ -44,13 +48,19 @@ The CoE should be responsible for creating Communities of Practice (CoP) around 
 
 An innovation squad is a vital part of a cloud center of excellence, as it focuses on the development of new and innovative solutions. Using the principles of lean startup, the squad tests and validates an epic hypothesis before large-scale investment of time and resources is made. This approach enables the team to fail fast and avoid costly mistakes, while also giving the business the opportunity to quickly pivot and refine its strategy. By proving or disproving the hypothesis in a controlled and measured way, the innovation squad ensures that the center of excellence is aligned with the strategic themes of the business and is delivering value in an efficient and effective manner.
 
+.Innovation in Motion: Embracing the Lean Startup Cycle to Drive Success.
+image::Images/Lean%20Startup%20Cycle.png[float=center,align=center,width=75%]
+
 === Agile Delivery Squads
 
 The agile delivery squads are an integral part of the cloud center of excellence. They are responsible for delivering high-value, high-quality solutions at a high-cadence, from an idea through to production. This is achieved by going through the iterative DevOps lifecycle of Prep, Design, Engineer, Test, and Operate. The teams are composed of individuals with specialized roles associated with each of these stages, allowing them to deliver features during each sprint. This autonomous delivery model enables the teams to be efficient and effective in delivering solutions that align with the strategic themes of the business. By having a clear understanding of their role and the stages involved in the delivery process, the teams are able to focus on delivering value to the customer.
 
-=== Continuous Improvement
+=== Iterative Improvement
 
-A critical aspect of any cloud center of excellence is continuous improvement. The CoE should strive to make small, iterative changes to people, process, and technology in order to drive positive change. This approach, known as Kaizen, is a key component of effective organizational change. However, it's also important to have a clear understanding of what "good" looks like. Defining what success looks like allows the CoE to measure progress, identify areas for improvement, and adjust their approach as needed. By combining a focus on continuous improvement with a clear definition of success, the CoE can ensure that their efforts are aligned with the overall strategic vision of the organization and deliver value that is aligned with the company's goals and priorities.
+A critical aspect of any cloud center of excellence is continuous or iterative improvement. The CoE should strive to make small, iterative changes to people, process, and technology in order to drive positive change. This approach, known as Kaizen, is a key component of effective organizational change. However, it's also important to have a clear understanding of what "good" looks like. Defining what success looks like allows the CoE to measure progress, identify areas for improvement, and adjust their approach as needed. By combining a focus on continuous improvement with a clear definition of success, the CoE can ensure that their efforts are aligned with the overall strategic vision of the organization and deliver value that is aligned with the company's goals and priorities.
+
+.Through small iterative changes, we strive to deliver value (Features) to the business in the y-axis, within units of time (Sprints).
+image::Images/Iterative%20Improvement.png[float=center,align=center,width=75%]
 
 === Performance of the CCoE
 
