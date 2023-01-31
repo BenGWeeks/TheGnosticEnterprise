@@ -29,7 +29,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/TheGnosticEn
 + [About the Authors](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AboutTheAuthors.asciidoc)
 + [Foreword](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Foreword.asciidoc)
 + [Sponsors](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Sponsors.asciidoc)
-+ Chapter 1: [Introduction](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Introduction.asciidoc)
++ Chapter 1: [Introduction: The Gnostic Enterprise](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Introduction.asciidoc)
 + Chapter 2: [Return to Chaos: Embracing Agile Squads](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ReturnToChaos.asciidoc)
 + Chapter 3: [Understanding Agile for the Enterprise: Key Principles and Practices](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AgileForTheEnterprise.asciidoc)
 + Chapter 4: [The Rise of the "Super Employee"](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/SuperEmployee.asciidoc)
