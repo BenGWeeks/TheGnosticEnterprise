@@ -10,11 +10,11 @@ PLEASE NOTE: This book is still very much draft and subject to change.
 
 To suggest changes, please submit a pull request. The format of this book uses [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/).
 
-If you submit a pull request, please feel free to add your details to the [Thanks](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/Introduction.asciidoc) section.
+If you submit a pull request, please feel free to add your details to the Thanks section.
 
-If you submit in the region of 25+ pull requests (dependent on size of the pull request and that includes new content and insight), you have the option to become a co-[author](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/AboutTheAuthors.asciidoc).
+If you submit in the region of 25+ pull requests (dependent on size of the pull request and that includes new content and insight), you have the option to become a co-[author](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AboutTheAuthors.adoc).
 
-Sponsors of the project will be added to the [Sponsors](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/Introduction.asciidoc) page (see link above to become a sponsor of the project).
+Sponsors of the project will be added to the [Sponsors](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Sponsors.adoc) page.
 
 ## Presentations
 
@@ -22,27 +22,26 @@ We'll be adding various presentations to this repository for resources to use fo
 
 ## Reading this book
 
-To read this book, see [book.asciidoc](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Book.asciidoc). Click on each of the chapters to read in your browser.
+To read this book, see [book.adoc](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/book.adoc). Click on each of the chapters to read in your browser.
 
 ### Chapters
 
-+ [About the Authors](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AboutTheAuthors.asciidoc)
-+ [Foreword](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Foreword.asciidoc)
-+ [Sponsors](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Sponsors.asciidoc)
-+ Chapter 1: [Introduction: The Gnostic Enterprise](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Introduction.asciidoc)
-+ Chapter 2: [Return to Chaos: Embracing Agile Squads](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ReturnToChaos.asciidoc)
-+ Chapter 3: [Understanding Agile for the Enterprise: Key Principles and Practices](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AgileForTheEnterprise.asciidoc)
-+ Chapter 4: [The Rise of the "Super Employee": Augmenting Human Intelligence with Technology and AI](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/SuperEmployee.asciidoc)
-+ Chapter 5: [Philosopher Leaders](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/PhilosopherLeaders.asciidoc)
-+ Chapter 6: [Harnessing the Power of Cloud Technologies and Low-Code Platforms](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/HarnessTheCloud.asciidoc)
-+ Chapter 7: [The Power of Data: Making Smarter Decisions](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ThePowerOfData.asciidoc)
-+ Chapter 8: [Automate Everything Unhuman](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AutomateEverythingUnhuman.asciidoc)
-+ Chapter 9: [Bringing Teams Together: The Power of Collaboration](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/BringingTeamsTogether.asciidoc)
-+ Chapter 10: [Employee Happiness = Customer Happiness](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/EmployeeAndCustomerHappiness.asciidoc)
-+ Chapter 11: [Continuous Learning and Improvement](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/ContinuousLearningAndImprovement.asciidoc)
-+ Chapter 12: [Building a Cloud Centre of Excellence](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/TheCloudCentreOfExcellence.asciidoc)
-+ Chapter 13: [Summary](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Summary.asciidoc)
-+ [Thanks](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Thanks.asciidoc)
++ [About the Authors](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/AboutTheAuthors.adoc)
++ [Foreword](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Foreword.adoc)
++ [Sponsors](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/Sponsors.adoc)
++ Chapter 1: [Introduction: The Gnostic Enterprise](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/01-introduction.adoc)
++ Chapter 2: [Return to Chaos: Embracing Agile Squads](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/02-return-to-chaos.adoc)
++ Chapter 3: [Understanding Agile for the Enterprise: Key Principles and Practices](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/03-agile-for-the-enterprise.adoc)
++ Chapter 4: [The Rise of the "Super Employee": Augmenting Human Intelligence with Technology and AI](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/04-the-super-employee.adoc)
++ Chapter 5: [Philosopher Leaders](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/05-philosopher-leaders.adoc)
++ Chapter 6: [Harnessing the Power of Cloud Technologies and Low-Code Platforms](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/06-harness-the-cloud.adoc)
++ Chapter 7: [The Power of Data: Making Smarter Decisions](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/07-the-power-of-data.adoc)
++ Chapter 8: [Automate Everything Unhuman](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/08-automate-everything-unhuman.adoc)
++ Chapter 9: [Bringing Teams Together: The Power of Collaboration](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/09-bringing-teams-together.adoc)
++ Chapter 10: [Employee Happiness = Customer Happiness](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/10-employee-and-customer-happiness.adoc)
++ Chapter 11: [Continuous Learning and Improvement](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/11-continuous-learning-and-improvement.adoc)
++ Chapter 12: [Building a Cloud Centre of Excellence](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/12-the-cloud-centre-of-excellence.adoc)
++ Chapter 13: [Summary](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/13-summary.adoc)
 
 ## Source
 
