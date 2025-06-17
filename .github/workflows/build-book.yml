@@ -1,15 +1,15 @@
 name: Book Build for Amazon KDP
 
 on:
- workflow_dispatch: # Manual triggering
- push:
- branches: [ main ] # Automatic triggering on push to main branch
- paths-ignore:
- - 'agents/**'
+  workflow_dispatch:  # Manual triggering
+  push:
+    branches: [ main ]  # Automatic triggering on push to main branch
+    paths-ignore:
+      - 'agents/**'
 
 # Set permissions for the workflow
 permissions:
- contents: write # Needed for creating releases
+  contents: write  # Needed for creating releases
 
 jobs:
   # Job 1: Set up the environment and build the book files
@@ -33,14 +33,61 @@ jobs:
       - name: Build PDF
         id: build-pdf
         run: |
-          # Detailed PDF build process with error handling and artifact generation
-          echo "build_success=true" >> $GITHUB_OUTPUT
-  
+          echo "Starting PDF build..."
+          # Make sure directories are properly recognized
+          mkdir -p chapters appendices images
+          # Run the build with the new folder structure
+          if asciidoctor-pdf -a pdf-theme=the-gnostic-enterprise-theme.yml -a pdf-themesdir=themes book.adoc -o book.pdf --trace -v; then
+            echo "PDF build succeeded"
+            echo "build_success=true" >> $GITHUB_OUTPUT
+            echo "pdf_path=book.pdf" >> $GITHUB_OUTPUT
+          else
+            echo "PDF build failed"
+            echo "build_success=false" >> $GITHUB_OUTPUT
+            echo "pdf_path=" >> $GITHUB_OUTPUT
+          fi
+          
+          # Verify the build results
+          if [ -f "book.pdf" ]; then
+            echo "PDF file exists and has size:"  
+            ls -la book.pdf
+          else
+            echo "PDF file was not created"
+            exit 1
+          fi
+
+      - name: Upload PDF artifact
+        if: steps.build-pdf.outputs.build_success == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-pdf
+          path: book.pdf
+          retention-days: 30
+
   # Job 2: Create the GitHub release with the built files
   create-release:
     name: Create GitHub Release
     needs: build-book
     runs-on: ubuntu-latest
+    if: needs.build-book.outputs.build_success == 'true'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      
+      - name: Download PDF artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: book-pdf
+      
+      - name: Create GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Create a release with the current date/time
+          RELEASE_TAG="release-$(date +'%Y%m%d-%H%M%S')"
+          RELEASE_NAME="Book Release $(date +'%Y-%m-%d %H:%M')"
+          
+          gh release create "$RELEASE_TAG" \
+            --title "$RELEASE_NAME" \
+            --notes "Automated book build and release" \
+            book.pdf

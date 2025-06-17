@@ -1,0 +1,43 @@
+= The Gnostic Enterprise: Harnessing the Power of Knowledge and Innovation
+Ben G. Weeks
+:doctype: book
+:toc:
+:toclevels: 2
+:sectlinks:
+:sectanchors:
+:icons: font
+:source-highlighter: rouge
+:imagesdir: images
+:front-cover-image: image:cover/the-gnostic-enterprise-cover.pdf[width=1050,height=1600]
+
+include::Foreword.adoc[]
+
+include::Introduction.adoc[]
+
+include::ReturnToChaos.adoc[]
+
+include::AgileForTheEnterprise.adoc[]
+
+include::SuperEmployee.adoc[]
+
+include::PhilosopherLeaders.adoc[]
+
+include::HarnessTheCloud.adoc[]
+
+include::ThePowerOfData.adoc[]
+
+include::AutomateEverythingUnhuman.adoc[]
+
+include::BringingTeamsTogether.adoc[]
+
+include::EmployeeAndCustomerHappiness.adoc[]
+
+include::ContinuousLearningAndImprovement.adoc[]
+
+include::TheCloudCentreOfExcellence.adoc[]
+
+include::Summary.adoc[]
+
+include::AboutTheAuthors.adoc[]
+
+include::Sponsors.adoc[]
