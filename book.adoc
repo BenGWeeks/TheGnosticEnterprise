@@ -38,6 +38,8 @@ include::chapters/12-the-cloud-centre-of-excellence.adoc[]
 
 include::chapters/13-summary.adoc[]
 
+include::chapters/14-looking-forward-100-years.adoc[]
+
 include::AboutTheAuthors.adoc[]
 
 include::Sponsors.adoc[]
