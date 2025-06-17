@@ -14,13 +14,13 @@ include::Foreword.adoc[]
 
 include::chapters/01-introduction.adoc[]
 
+include::chapters/05-philosopher-leaders.adoc[]
+
 include::chapters/02-return-to-chaos.adoc[]
 
 include::chapters/03-agile-for-the-enterprise.adoc[]
 
 include::chapters/04-the-super-employee.adoc[]
-
-include::chapters/05-philosopher-leaders.adoc[]
 
 include::chapters/06-harness-the-cloud.adoc[]
 

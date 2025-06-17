@@ -2,7 +2,7 @@
 
 image::AI-Images/Augmented%20Suit.png[float=center,align=center]
 
-The traditional workplace is undergoing a transformation. With the rise of technology and artificial intelligence, employees are no longer limited to the information and resources available at their fingertips. Instead, employees are becoming "super-employees," augmenting their intelligence and abilities with technology and AI.
+We've established the philosophical foundation with philosopher leaders and the structural approach with agile squads. Now we come to the heart of the gnostic enterprise: the transformation of individual human capability through technology. The traditional workplace is undergoing a transformation. With the rise of technology and artificial intelligence, employees are no longer limited to the information and resources available at their fingertips. Instead, employees are becoming "super-employees," augmenting their intelligence and abilities with technology and AI.
 
 So, what does a super-employee look like? A super-employee leverages technology and AI to make better decisions, work faster and more efficiently, and provide better outcomes for their organizations. They have the knowledge and skills to effectively use technology and AI to automate tasks, analyze data, and solve complex problems.
 
