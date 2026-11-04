@@ -10,17 +10,17 @@ Security in the Gnostic Enterprise should work the same way. It isn't the depart
 
 === The Flood
 
-Every publicly disclosed security flaw gets an identifier, known as a CVE (Common Vulnerabilities and Exposures). For years the number published each year crept up steadily, from around 18,000 in 2017 to just under 50,000 in 2025. Then it took off. In the first ten months of 2026, more than 88,000 had been published, and the year was not over{empty}footnote:[NIST National Vulnerability Database, CVEs counted by publish date via the NVD CVE API 2.0, to 23 October 2026, https://nvd.nist.gov/vuln/search]. In the thirty days to 23 October alone, an average of roughly 566 new CVEs were published every single day.
+Every publicly disclosed security flaw gets an identifier, known as a CVE (Common Vulnerabilities and Exposures). For years the number published each year crept up steadily, from around 18,000 in 2017 to just under 50,000 in 2025. Then it took off. By 23 October 2026, more than 88,000 had been published, and the year was not over{empty}footnote:[NIST National Vulnerability Database, CVEs counted by publish date via the NVD CVE API 2.0, to 23 October 2026, https://nvd.nist.gov/vuln/search]. In the thirty days to 23 October alone, an average of roughly 566 new CVEs were published every single day.
 
 No person can read every one of those. No team can either.
 
 Yet only a small fraction are known to be used by attackers. In 2025, the US Cybersecurity and Infrastructure Security Agency (CISA) added 245 entries to its catalogue of vulnerabilities known to be exploited in the wild, the KEV list{empty}footnote:[CISA Known Exploited Vulnerabilities catalogue, entries added in 2025, https://www.cisa.gov/known-exploited-vulnerabilities-catalog]. Severity alone is a poor guide: a critical flaw nobody is exploiting may matter less than a moderate one on the KEV list. The skill is no longer reading everything. It's knowing which handful affect _your_ code, and fixing those first.
 
-Meanwhile, attackers now use AI to find and exploit holes around the clock. It takes no weekends off, doesn't wait for a change window, and couldn't care less that your penetration test is booked for next spring.
+Meanwhile, attackers now use AI to find and exploit holes around the clock. AI takes no weekends off, doesn't wait for a change window, and couldn't care less that your penetration test is booked for next spring.
 
 === Why the Annual Pen Test Won't Save You
 
-Let's be brutally honest: for many organisations, security still runs on a calendar. A penetration test once a year, patching once a quarter, and a PDF report that a few people read before it's filed.
+Confession time: for many organisations, security still runs on a calendar. A penetration test once a year, patching once a quarter, and a PDF report that a few people read before it's filed.
 
 A pen test is a snapshot of how secure you were on the day. By the time the report lands, thousands more advisories are out, your squads have shipped dozens of changes, and a flaw being exploited today might wait months for the next patch cycle. The attacker only needs one gap.
 
@@ -94,7 +94,7 @@ You don't need to be a security specialist. You need the right questions:
 - Which people, and which AI agents, can change production, and can we switch them off?
 - What data can our AI tools see, and where does it go?
 
-Then act. Put security on your mission control alongside delivery and happiness, fund it as a continuous capability rather than an annual event, make it part of every squad's definition of done, and give your Cloud Centre of Excellence ownership of the guardrails through its Architecture & Standards role.
+Then act. Put security on your mission control alongside delivery and happiness, fund it as a continuous capability rather than an annual event, make it part of every squad's definition of done, and give the Centre of Excellence ownership of the guardrails.
 
 Back to the launchpad. That termination button is the reason the rocket is allowed to fly at all. Give your organisation the same: eyes on every threat, a fast way to close it, and the authority to stop anything – or any agent – that strays. Then launch as often as you like.
 
