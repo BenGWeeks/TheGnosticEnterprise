@@ -6,7 +6,7 @@ Let's start with an uncomfortable truth: your organisation's most valuable asset
 
 Most of it comes back the next morning. Not all of it, and not for ever.
 
-"The Gnostic Enterprise: Harnessing the Power of Knowledge and Innovation" is a practical guide for organisations that want to sharpen their competitive edge and drive growth – by growing the individual and backing them with innovative technology. It's a roadmap for combining the principles of Agile delivery with the power of Artificial Intelligence, cloud technologies and low-code platforms to measure everything, bring teams together, and deliver high-value, high-quality solutions with greater speed and efficiency.
+"The Gnostic Enterprise: Harnessing the Power of Knowledge and Innovation" is a practical guide for organisations that want to sharpen their competitive edge and drive growth – by growing the individual and backing them with innovative technology.
 
 Here's what's on the flight plan:
 
@@ -16,6 +16,7 @@ Here's what's on the flight plan:
 * *Cloud and low-code* – Deliver value to the business far quicker than traditional methodologies, stay ahead of the curve and stay agile in the face of rapid change. Respond quickly to shifting business requirements and customer needs, while reducing costs and streamlining processes.
 * *Data* – Measure everything and make data-driven decisions that drive real impact.
 * *Continuous learning and improvement* – Use Agile and AI to build a culture where everyone is empowered to contribute and help drive the organisation forward.
+* *Guardrails and security* – Flight rules that let people and AI agents move fast without being reckless, lean business cases that keep every bet re-decided, security designed in from day one, and a Centre of Excellence to hold it all together.
 * *Team and customer happiness* – Keep both your people and your customers happy and engaged, and you get a positive, productive place to work that drives real impact in its community and industry.
 
 But before we fire up the engines, let's get something straight about what a company actually is.
