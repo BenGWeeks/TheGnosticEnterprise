@@ -6,7 +6,7 @@ _Picture this_: the alarm is sounding in mission control and every head has turn
 
 The practice was already mature by Apollo. A NASA report on the programme argued that who has the authority to act, and what the action should be, must be settled before the mission wherever possible, because a lack of action caused by unclear responsibility "can be just as disastrous as the wrong action". And the rules paid off: they enabled prompt and accurate preplanned action for 80 per cent of the in-flight failures that occurred during Apollo{empty}footnote:[L. W. Keyser, _Apollo Experience Report: The Role of Flight Mission Rules in Mission Preparation and Conduct_, NASA TN D-7822, November 1974, https://ntrs.nasa.gov/citations/19750002893].
 
-Here's the kicker: flight rules aren't there to stop the mission. They're what let it move fast without being reckless. Think of the brakes on a car. They're not there to slow you down; they're the reason you dare to drive quickly at all.
+The point is this: flight rules aren't there to stop the mission. They're what let it move fast without being reckless. Think of the brakes on a car. They're not there to slow you down; they're the reason you dare to drive quickly at all.
 
 The Gnostic Enterprise needs flight rules too – now more than ever, because its crew includes AI agents as well as people.
 

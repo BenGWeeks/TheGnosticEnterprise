@@ -64,7 +64,7 @@ The point isn't the product. It's the shape: continuous testing, continuous moni
 
 Letting AI agents attack your systems and change your code sounds alarming – and it should. The guardrails matter more than the tools. A Range Safety Officer doesn't rely on good intentions; they rely on rules agreed before the countdown starts.
 
-The flight rules from the previous chapter apply in full: least privilege, a named identity for every agent, audit trails, a kill switch, and a human approving every change. Security adds a few of its own, whether the work is done by people or AI:
+The flight rules from the previous chapter apply in full: least privilege, a named identity for every agent, audit trails, a kill switch, and a human approving every change that matters. Security adds a few of its own, whether the work is done by people or AI:
 
 - *Written authorisation*: targets, timings and rules of engagement agreed in writing first, with anything risky run against a staging copy.
 - *Zero trust and encryption*: nothing is trusted just because it's "inside" the network, and data is encrypted in transit and at rest by default.
