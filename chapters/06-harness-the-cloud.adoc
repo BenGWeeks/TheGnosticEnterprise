@@ -1,4 +1,4 @@
-== Harnessing the Power of Cloud Technologies and Low-Code Platforms
+== Build Fast: Cloud, Low-Code and Agentic Delivery
 
 image::AI-Images/Dyson%20Sphere.png[float=center,align=center]
 
