@@ -62,12 +62,11 @@ The point isn't the product. It's the shape: continuous testing, continuous moni
 
 === Guardrails: Security by Design
 
-Letting AI agents attack your systems and change your code sounds alarming – and it should. The guardrails matter more than the tools. A Range Safety Officer doesn't rely on good intentions; they rely on rules agreed before the countdown starts. Whether the work is done by people or AI, expect:
+Letting AI agents attack your systems and change your code sounds alarming – and it should. The guardrails matter more than the tools. A Range Safety Officer doesn't rely on good intentions; they rely on rules agreed before the countdown starts.
+
+The flight rules from the previous chapter apply in full: least privilege, a named identity for every agent, audit trails, a kill switch, and a human approving every change that matters. Security adds a few of its own, whether the work is done by people or AI:
 
 - *Written authorisation*: targets, timings and rules of engagement agreed in writing first, with anything risky run against a staging copy.
-- *Least privilege*: every person and every agent has only the access their job needs.
-- *Humans approve every change*: fixes go through your existing review process, and nothing lands without a person saying yes.
-- *Audit trails*: every action logged, and every agent a named identity you can see and switch off.
 - *Zero trust and encryption*: nothing is trusted just because it's "inside" the network, and data is encrypted in transit and at rest by default.
 - *Identity first*: role-based access control (RBAC) and multi-factor authentication (MFA) for everyone, and everything, that touches your systems.
 
@@ -81,7 +80,7 @@ If your super employees work alongside AI agents, those agents become part of yo
 - *Data leakage*: sensitive information ends up in prompts, outputs or places it shouldn't, often unnoticed.
 - *Agents with too much access*: an agent given broad permissions "to be helpful" can do broad damage if misled. OWASP calls this excessive agency.
 
-Treat an AI agent like a new member of staff: a named identity, the least access it needs, supervision in proportion to the risk, and an off switch.
+So treat an AI agent like a new member of staff: the flight rules give it a name, limited access and an off switch, and you supervise it in proportion to the risk.
 
 === What Leaders Should Ask
 
@@ -94,7 +93,7 @@ You don't need to be a security specialist. You need the right questions:
 - Which people, and which AI agents, can change production, and can we switch them off?
 - What data can our AI tools see, and where does it go?
 
-Then act. Put security on your mission control alongside delivery and happiness, fund it as a continuous capability rather than an annual event, make it part of every squad's definition of done, and give the Centre of Excellence ownership of the guardrails.
+Then act. Put security on your mission control alongside delivery and happiness, fund it as a continuous capability rather than an annual event, make it part of every squad's definition of done, and, as the previous chapter argued, give the Centre of Excellence ownership of the guardrails.
 
 Back to the launchpad. That termination button is the reason the rocket is allowed to fly at all. Give your organisation the same: eyes on every threat, a fast way to close it, and the authority to stop anything – or any agent – that strays. Then launch as often as you like.
 
