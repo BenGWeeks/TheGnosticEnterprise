@@ -24,7 +24,7 @@ A guardrail runs alongside the road rather than across it. You keep moving at sp
 
 === Flight Rules for Delivery Teams
 
-For an agile squad, many flight rules already exist; they just need writing down and automating. In T-Minus-15, our open-source delivery methodology{empty}footnote:[T-Minus-15, an open-source delivery methodology, https://github.com/T-Minus-15/book], we put it this way: "A codebase without guardrails is a freeway without lanes." The essentials:
+For an agile squad, many flight rules already exist; they just need writing down and automating. In T-Minus-15{empty}footnote:[T-Minus-15, an open-source delivery methodology, https://github.com/T-Minus-15/book] we put it this way: "A codebase without guardrails is a freeway without lanes." The essentials:
 
 * *A Definition of Done* – an agreed answer to "what does done mean?" for each stage of the work, so quality isn't a matter of opinion.
 * *Branch and repository policies* – every change arrives as a pull request, is reviewed by at least one other person, and can't merge unless the build succeeds.

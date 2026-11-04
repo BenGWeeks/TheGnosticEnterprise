@@ -4,13 +4,13 @@
 
 Picture this: it's minutes before launch and mission control goes quiet for the go/no-go poll. The launch manager calls each station in turn, and each answers with a single word – go, or no-go. NASA's own policy is blunt about what this means: a "Go" statement is required from all parties polled before the countdown can enter its final phase{empty}footnote:[NASA Policy Directive NPD 8610.24C, _Launch Services Program Pre-Launch Readiness Reviews_, https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PD_8610_024C_]. And the poll isn't a one-off. It's the last in a series of readiness reviews held in the weeks and days before launch, each one a deliberate chance to say "not yet".
 
-Now compare that with how most organisations spend money. Let's be brutally honest: a project gets approved once, usually on the strength of a hefty document written before anyone really knew the answer, and from then on it rolls forward under its own momentum. Nobody polls the stations again. Nobody is quite sure who could say no-go, or when.
+Now compare that with how most organisations spend money. A project gets approved once, usually on the strength of a hefty document written before anyone really knew the answer, and from then on it rolls forward under its own momentum. Nobody polls the stations again. Nobody is quite sure who could say no-go, or when.
 
 A lean business case gives every significant investment its own go/no-go poll – a deliberate point at which we decide, on the evidence, whether it deserves to fly.
 
 === So What Is an Epic?
 
-In agile speak, an investment of this size is called an epic. The Scaled Agile Framework (SAFe) defines an epic simply as "a significant solution development initiative", and requires each one to have a Minimum Viable Product (MVP), a Lean business case and an estimate of costs{empty}footnote:[Scaled Agile Framework, "Epic", https://framework.scaledagile.com/epic/].
+In agile speak, an investment of this size is called an epic. The Scaled Agile Framework (SAFe) defines an epic simply as "a significant solution development initiative", and requires each one to have a Minimum Viable Product (MVP), a lean business case and an estimate of costs{empty}footnote:[Scaled Agile Framework, "Epic", https://framework.scaledagile.com/epic/].
 
 The MVP matters most. Rather than build the whole vision at once, you build the smallest version that can prove or disprove the idea, put it in front of real users, and learn. If it works, grow it. If it doesn't, stop – having spent a fraction of the money.
 
@@ -31,7 +31,7 @@ A traditional business case tries to predict the future: dozens of pages, a conf
 * *The cost of delay* – what we lose for every month we don't do this. It's often the most revealing number on the page.
 * *Risks* – what could go wrong, and what we'd do about it.
 
-Here's the kicker: don't invent numbers. The T-Minus-15 guidance for epics is to use percentages only when we have the data to define them with confidence{empty}footnote:[T-Minus-15, "Epic metadata", https://github.com/T-Minus-15/book/blob/main/appendices/epic-metadata.adoc]. A made-up figure on a business case is worse than none, because it lends false confidence to the very decision the case exists to inform.
+One rule above all: don't invent numbers. The T-Minus-15 guidance for epics is to use percentages only when we have the data to define them with confidence{empty}footnote:[T-Minus-15, "Epic metadata", https://github.com/T-Minus-15/book/blob/main/appendices/epic-metadata.adoc]. A made-up figure on a business case is worse than none, because it lends false confidence to the very decision the case exists to inform.
 
 The first go decision funds only the MVP. Once the MVP is in users' hands, you poll the stations again – this time with evidence. There are three answers. _Go_: the hypothesis is holding up, so we invest further. _Pivot_: we've learned something important, so we change direction. _Stop_: the hypothesis was wrong, so we close the epic and move the money elsewhere. Eric Ries made "pivot or persevere" famous in _The Lean Startup_{empty}footnote:[Eric Ries, _The Lean Startup_, Crown Business, 2011]; the lean business case simply writes down, in advance, what evidence will drive that choice.
 
