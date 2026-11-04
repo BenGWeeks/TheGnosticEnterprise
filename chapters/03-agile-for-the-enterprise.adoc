@@ -1,6 +1,6 @@
 == Understanding Agile for the Enterprise: Key Principles and Practices
 
-Agile is all about delivering value faster and more efficiently. It's a project management and product development framework that has changed the way organizations approach software development, product design, and business operations. Instead of following rigid plans, Agile focuses on flexibility, collaboration, and continuous improvement.
+Agile is all about delivering value faster and more efficiently. It's a project management and product development framework that has changed the way organisations approach software development, product design, and business operations. Instead of following rigid plans, Agile focuses on flexibility, collaboration, and continuous improvement.
 
 So, what are the key principles of Agile?
 
@@ -9,19 +9,19 @@ So, what are the key principles of Agile?
 1. Customer collaboration over contract negotiation
 1. Responding to change over following a plan
 
-These principles are all about putting people first. By focusing on individuals and interactions, organizations can foster a culture of collaboration and teamwork, and create products that meet the needs of customers and stakeholders.
+These principles are all about putting people first. By focusing on individuals and interactions, organisations can foster a culture of collaboration and teamwork, and create products that meet the needs of customers and stakeholders.
 
 Agile practices include:
 
-1. Scrum: a popular Agile framework that prioritizes flexibility, collaboration, and continuous improvement.
-1. Kanban: a visual project management tool that helps teams manage work and prioritize tasks.
-1. Sprint Planning: a time-boxed event where teams plan and prioritize tasks for the next sprint.
+1. Scrum: a popular Agile framework that prioritises flexibility, collaboration, and continuous improvement.
+1. Kanban: a visual project management tool that helps teams manage work and prioritise tasks.
+1. Sprint Planning: a time-boxed event where teams plan and prioritise tasks for the next sprint.
 1. Daily Stand-up: a short, daily meeting where team members share updates and address any issues.
 1. Sprint Review: a time-boxed event where teams review the work completed during the sprint and receive feedback.
 1. Sprint Retrospective: a time-boxed event where teams reflect on the sprint and identify areas for improvement.
 
-By incorporating these Agile practices, organizations can create a culture of continuous improvement and ensure they deliver high-quality products that meet the needs of customers and stakeholders. Agile also helps organizations stay flexible and responsive to change, so they can quickly respond to new challenges and opportunities.
+By incorporating these Agile practices, organisations can create a culture of continuous improvement and ensure they deliver high-quality products that meet the needs of customers and stakeholders. Agile also helps organisations stay flexible and responsive to change, so they can quickly respond to new challenges and opportunities.
 
-In short, understanding Agile is critical for organizations looking to harness the power of knowledge and innovation. Agile helps organizations foster collaboration and teamwork, and deliver high-value products and solutions to customers.
+In short, understanding Agile is critical for organisations looking to harness the power of knowledge and innovation. Agile helps organisations foster collaboration and teamwork, and deliver high-value products and solutions to customers.
 
 > Want to find out more, read link:https://github.com/BenGWeeks/T-Minus-15[T-Minus-15: Secrets of an Elite DevOps Team]

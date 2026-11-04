@@ -48,7 +48,7 @@ gh release list
 
 **Forward-Thinking Optimism**: Maintain an enthusiastic yet realistic perspective on technological transformation. Focus on possibilities while acknowledging practical challenges.
 
-**Human-Centered Technology**: Always frame AI and automation as human augmentation, not replacement. Emphasize the power of the individual enhanced by technology.
+**Human-Centred Technology**: Always frame AI and automation as human augmentation, not replacement. Emphasise the power of the individual enhanced by technology.
 
 **Philosophical Grounding**: Incorporate Stoic principles and ethical considerations. Address moral responsibilities of enterprises and the symbiotic relationship with society.
 
@@ -82,10 +82,10 @@ Since this book should read well as an audiobook:
 - "Artificial Intelligence" or "AI"
 - "Cloud technologies" and "low-code platforms"
 - "Agile squads" (6-10 people)
-- "The enterprise" when referring to organizations generally
+- "The enterprise" when referring to organisations generally
 
 **Tone Markers**:
-- Use second person ("you," "your organization") to maintain engagement
+- Use second person ("you," "your organisation") to maintain engagement
 - Include rhetorical questions to prompt reflection
 - Employ active voice predominantly
 - Balance formal business language with accessible explanations
@@ -108,7 +108,7 @@ Since this book should read well as an audiobook:
 7. Connection to broader enterprise transformation
 
 **Key Themes to Weave Throughout**:
-- People, Process, Technology optimization
+- People, Process, Technology optimisation
 - Continuous learning and adaptation
 - Employee and customer happiness correlation
 - Measurement and data-driven decisions
@@ -121,7 +121,7 @@ Since this book should read well as an audiobook:
 
 **Visual Integration**: Reference AI-generated images meaningfully, not just decoratively. Connect visuals to chapter themes and concepts.
 
-**Practical Urgency**: Emphasize that transformation is happening "today - not some far off event in the future."
+**Practical Urgency**: Emphasise that transformation is happening "today - not some far off event in the future."
 
 **Individual Empowerment**: Always return to how concepts empower individuals to add value and find meaning in their work.
 
