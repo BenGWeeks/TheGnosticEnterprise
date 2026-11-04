@@ -2,113 +2,100 @@
 
 > Or, Breaking It Before They Do
 
-Every rocket launch has a Range Safety Officer. Their job is not to stop the launch. It is to make sure the launch can happen safely: that the range is clear, that the people and towns around it are protected, and that if something goes wrong, a plan is already in place. A good Range Safety Officer is the reason a launch director can say "go" with confidence.
+Every rocket launch has a Range Safety Officer, and they hold the one button nobody wants pressed: the flight termination command. If a rocket strays off course towards a town, they end the flight.
 
-Security in the Gnostic Enterprise should work the same way. It is not the department of "no". It is the discipline that lets your agile squads ship quickly, lets your super employees use AI freely, and lets your board sleep at night. In this chapter, we'll explore why the old approach to security no longer keeps pace, how AI has changed both sides of the fight, and what you, as a leader, should be asking for.
+Here's the kicker: that power is exactly what lets the launch director say "go" with confidence. If things go wrong, someone already has the authority and the plan to stop it.
+
+Security in the Gnostic Enterprise should work the same way. It isn't the department of "no". It's the discipline that lets your agile squads ship quickly, lets your super employees use AI freely, and lets your board sleep at night.
 
 === The Flood
 
-Every publicly disclosed security flaw gets an identifier, known as a CVE (Common Vulnerabilities and Exposures). For years the number published each year crept up steadily, from around 18,000 in 2017 to just under 50,000 in 2025. Then it took off. By late October 2026, more than 88,000 had been published that year, and the year was not over{empty}footnote:[NIST National Vulnerability Database, CVEs counted by publish date via the NVD CVE API 2.0, to 23 October 2026, https://nvd.nist.gov/vuln/search]. In the thirty days to 23 October alone, an average of roughly 566 new CVEs were published every single day.
+Every publicly disclosed security flaw gets an identifier, known as a CVE (Common Vulnerabilities and Exposures). For years the number published each year crept up steadily, from around 18,000 in 2017 to just under 50,000 in 2025. Then it took off. In the first ten months of 2026, more than 88,000 had been published, and the year was not over{empty}footnote:[NIST National Vulnerability Database, CVEs counted by publish date via the NVD CVE API 2.0, to 23 October 2026, https://nvd.nist.gov/vuln/search]. In the thirty days to 23 October alone, an average of roughly 566 new CVEs were published every single day.
 
 No person can read every one of those. No team can either.
 
-Yet only a small fraction are known to be used by attackers. In 2025, the US Cybersecurity and Infrastructure Security Agency (CISA) added 245 entries to its catalogue of vulnerabilities known to be exploited in the wild{empty}footnote:[CISA Known Exploited Vulnerabilities catalogue, entries added in 2025, https://www.cisa.gov/known-exploited-vulnerabilities-catalog]. The skill is no longer reading everything. It is knowing which handful affect _your_ code, and fixing those first.
+Yet only a small fraction are known to be used by attackers. In 2025, the US Cybersecurity and Infrastructure Security Agency (CISA) added 245 entries to its catalogue of vulnerabilities known to be exploited in the wild, the KEV list{empty}footnote:[CISA Known Exploited Vulnerabilities catalogue, entries added in 2025, https://www.cisa.gov/known-exploited-vulnerabilities-catalog]. Severity alone is a poor guide: a critical flaw nobody is exploiting may matter less than a moderate one on the KEV list. The skill is no longer reading everything. It's knowing which handful affect _your_ code, and fixing those first.
 
-Meanwhile, attackers have gained a new tool. They now use AI to find and exploit holes around the clock. An attacker's AI does not take weekends off, does not wait for a change window, and does not care that your penetration test is booked for next spring.
+Meanwhile, attackers now use AI to find and exploit holes around the clock. It takes no weekends off, doesn't wait for a change window, and couldn't care less that your penetration test is booked for next spring.
 
-=== Why the Annual Pen Test No Longer Holds
+=== Why the Annual Pen Test Won't Save You
 
-For many organisations, security still runs on a calendar: a penetration test once a year, patching once a quarter, and a report that arrives as a PDF, is read by a few people, and is filed.
+Let's be brutally honest: for many organisations, security still runs on a calendar. A penetration test once a year, patching once a quarter, and a PDF report that a few people read before it's filed.
 
-A pen test is a snapshot. It tells you how secure you were on the day of the test. By the time the report lands, thousands more advisories have been published and your squads have shipped dozens of changes. A quarterly patch cycle means a flaw being exploited today might wait months to be closed. The attacker only needs one of those gaps.
+A pen test is a snapshot of how secure you were on the day. By the time the report lands, thousands more advisories are out, your squads have shipped dozens of changes, and a flaw being exploited today might wait months for the next patch cycle. The attacker only needs one gap.
 
-This is the same lesson we learned with delivery. We stopped doing one big release a year and moved to small, frequent, measured changes. Security has to make the same move, from an event to a loop.
+We learnt this lesson with delivery, swapping one big annual release for small, frequent, measured changes. Security has to make the same move – from an event to a loop.
 
 > A pen test that ends with a PDF has done half the job. The value is in the merged fix.
 
 === AI on Defence
 
-The good news is that the same technology helps the defenders. Frontier AI models can read code, reason about whether a flaw is really exploitable in your particular system, and write the fix.
+The good news? The same technology works for the defenders. Frontier AI models can read code, reason about whether a flaw is really exploitable in your particular system, and write the fix.
 
-The pattern that works is simple. Let automation do the filtering, checking every new advisory against the exact software you run and discarding the ones that cannot touch you. Let the AI do the reasoning on what is left. Then let a human decide whether to accept the fix. This is the super employee applied to security: the AI does not replace your security people, it gives each of them the reach of a much larger team.
+The pattern is simple. Automation checks every new advisory against the exact software you run and bins the ones that can't touch you. AI reasons about what's left. A human decides whether to accept the fix. It's the super employee applied to security: each of your security people gets the reach of a much larger team.
 
 === The Loop: Attack, Defend, Fix, Report
 
-The security world has long talked about a *red team* that attacks and a *blue team* that defends. When the two work as one, sharing what they learn, it is called a *purple team*. Continuous security is a purple team loop:
+The security world has long talked about a *red team* that attacks and a *blue team* that defends. When the two work as one, it's a *purple team*. Continuous security is a purple team loop:
 
 . *Attack*: test your own systems the way a real adversary would, continuously and with permission.
-. *Defend*: check whether your monitoring saw the attack. Every attack you missed becomes a new detection.
-. *Fix*: close the hole with a change that comes with a test proving it is closed, then attack again to confirm it holds.
+. *Defend*: check whether your monitoring saw the attack. Every miss becomes a new detection.
+. *Fix*: close the hole with a change and a test proving it's closed, then attack again to confirm.
 . *Report*: track every finding, and measure the trend.
 
-As we saw in the chapter on the power of data, what gets measured gets managed. Security deserves its own mission control: a single security score, plus a handful of measures leaders can follow month by month, such as how many exploitable issues are open right now, how long it takes to detect an attack, and how long it takes to go from advisory to merged fix.
+Remember Schrödinger's cat from the chapter on the power of data? What isn't measured might as well not exist – and with security, that holds right up until the day it very much does. So give security its own mission control: a single score, plus a few monthly measures such as exploitable issues open now, time to detect an attack, and time from advisory to merged fix.
 
 .Example dashboard for an Enterprise Security Mission Control
 image::Enterprise Security Mission Control.png[float=center,align=center]
 
 === A Worked Example: The Purple Team
 
-At KnowAll, we have built this loop as a team of AI agents, called the Purple Team{empty}footnote:[KnowAll AI Purple Team, https://www.knowall.ai/purple-team]. It is not the only way to do this, but it makes the loop concrete.
+At KnowAll, we've built this loop as a crew of AI agents, called the Purple Team{empty}footnote:[KnowAll AI Purple Team, https://www.knowall.ai/purple-team]. It's not the only way to do it, but it makes the loop concrete.
 
 - *Pennie the Pen Tester* is the red team. With written authorisation, she probes apps, APIs and cloud like a real adversary, mapped to the OWASP Top 10, the OWASP LLM Top 10 and MITRE ATT&CK, and checks each new CVE against the code to prove what is really exploitable.
-- *Ollie the Operator* is the blue team. He filters the daily CVE flood down to what matters using CISA KEV and EPSS, watches Microsoft Defender for Cloud and Sentinel around the clock, and turns every missed attack into a new detection. Fixes arrive as pull requests with a test that proves them, which the client's own developers review and merge.
-- *Poppie the Planner* runs the loop between them. She scopes the work, tracks every finding as a risk, issue or task, and reports a security score, time to detect and time to fix each month.
+- *Ollie the Operator* is the blue team. He filters the daily CVE flood using CISA KEV and EPSS (the likelihood a flaw is exploited next), watches Microsoft Defender for Cloud and Sentinel around the clock, and turns every missed attack into a new detection. Fixes arrive as pull requests with a proving test, for your own developers to review and merge.
+- *Poppie the Planner* runs the loop. She scopes the work, tracks every finding as a risk, issue or task, and reports a security score, time to detect and time to fix each month.
 
-The agents work inside the tools a team already runs, whether GitHub or Azure DevOps. And because security data is sensitive, there is a choice of where it lives: hosted, inside the client's own cloud tenant, or fully sovereign, where the agents and AI models run in that tenant too and nothing leaves it.
+The agents work inside the tools a team already runs, and because security data is sensitive, the agents and models can run entirely inside your own tenant.
 
-The point to take away is not the product. It is the shape: continuous testing, continuous monitoring, fixes delivered as reviewable changes, and a score leadership can see.
+The point isn't the product. It's the shape: continuous testing, continuous monitoring, fixes delivered as reviewable changes, and a score leadership can see.
 
 === Guardrails: Security by Design
 
-Giving AI agents the ability to attack your systems and change your code sounds alarming, and it should. That is why the guardrails matter more than the tools. A Range Safety Officer does not rely on good intentions; they rely on rules agreed before the countdown starts. Whether the work is done by people or by AI, expect:
+Letting AI agents attack your systems and change your code sounds alarming – and it should. The guardrails matter more than the tools. A Range Safety Officer doesn't rely on good intentions; they rely on rules agreed before the countdown starts. Whether the work is done by people or AI, expect:
 
-- *Written authorisation*: nothing is tested without permission in writing, with targets, timings and rules of engagement agreed first, and anything risky run against a staging copy.
+- *Written authorisation*: targets, timings and rules of engagement agreed in writing first, with anything risky run against a staging copy.
 - *Least privilege*: every person and every agent has only the access their job needs.
 - *Humans approve every change*: fixes go through your existing review process, and nothing lands without a person saying yes.
-- *Audit trails*: every action is logged, and each agent is a named identity you can see and switch off.
-- *Zero trust*: nothing is trusted just because it is "inside" the network; every request is verified.
-- *Encryption*: data is protected in transit and at rest, by default.
+- *Audit trails*: every action logged, and every agent a named identity you can see and switch off.
+- *Zero trust and encryption*: nothing is trusted just because it's "inside" the network, and data is encrypted in transit and at rest by default.
 - *Identity first*: role-based access control (RBAC) and multi-factor authentication (MFA) for everyone, and everything, that touches your systems.
 
-None of these are new. What is new is that they now apply to AI agents as well as people. Security by design means building them into how your squads work from the start, rather than bolting them on after an incident.
+None of these are new. What's new is that they now apply to AI agents too. Security by design means building them in from day one, not bolting them on after an incident.
 
 === New Risks for a New Kind of Colleague
 
-AI brings risks of its own. If your super employees work alongside AI agents, those agents become part of your attack surface. The OWASP Top 10 for Large Language Model Applications catalogues the main risks, and three are worth every leader understanding:
+If your super employees work alongside AI agents, those agents become part of your attack surface. The OWASP Top 10 for Large Language Model Applications catalogues the main risks; three are worth every leader knowing:
 
-- *Prompt injection*: an attacker hides instructions in something the AI reads, such as an email or a web page, and the AI follows them. It is social engineering for machines.
-- *Data leakage*: sensitive information ends up in prompts, outputs or places it should not be, often without anyone noticing.
-- *Agents with too much access*: an agent given broad permissions "to be helpful" can do broad damage if it is misled. OWASP calls this excessive agency.
+- *Prompt injection*: an attacker hides instructions in something the AI reads, such as an email or a web page, and the AI follows them. Social engineering for machines.
+- *Data leakage*: sensitive information ends up in prompts, outputs or places it shouldn't, often unnoticed.
+- *Agents with too much access*: an agent given broad permissions "to be helpful" can do broad damage if misled. OWASP calls this excessive agency.
 
-The answer is to treat an AI agent like a new member of staff: a named identity, the least access it needs, supervision in proportion to the risk, and an off switch.
-
-=== The Standards Worth Knowing
-
-You do not need to be a security specialist, but a handful of standards come up in every security conversation:
-
-- *CVE*: the public register of known vulnerabilities.
-- *CVSS*: how severe a vulnerability is, scored from 0 to 10.
-- *CISA KEV*: the vulnerabilities attackers are known to be exploiting right now.
-- *EPSS*: how likely a vulnerability is to be exploited next.
-- *CWE*: the type of weakness behind each flaw.
-- *OWASP Top 10* and *OWASP LLM Top 10*: the most critical risks to web applications and to AI applications.
-- *MITRE ATT&CK*: the catalogue of real-world attacker techniques.
-
-Severity alone is a poor guide to priority. A critical flaw nobody is exploiting may matter less than a moderate one on the KEV list. Combining these, and matching them to the software you actually run, is how you find the handful that matter.
+Treat an AI agent like a new member of staff: a named identity, the least access it needs, supervision in proportion to the risk, and an off switch.
 
 === What Leaders Should Ask
 
-Security is a leadership responsibility, not just a technical one. Ask your teams:
+You don't need to be a security specialist. You need the right questions:
 
 - How many actively exploited vulnerabilities affect us right now, and how long have they been open?
 - If we were attacked today, how long would it take us to notice?
-- How long do we take to go from a published advisory to a merged fix?
+- How long from a published advisory to a merged fix?
 - Is our security score improving month by month, and who owns it?
 - Which people, and which AI agents, can change production, and can we switch them off?
 - What data can our AI tools see, and where does it go?
 
-Then act on the answers. Put security on your mission control alongside delivery and happiness. Fund it as a continuous capability rather than an annual event. Make it part of every squad's definition of done, and give your Cloud Centre of Excellence ownership of the guardrails through its Architecture & Standards role.
+Then act. Put security on your mission control alongside delivery and happiness, fund it as a continuous capability rather than an annual event, make it part of every squad's definition of done, and give your Cloud Centre of Excellence ownership of the guardrails through its Architecture & Standards role.
 
-In Stoic fashion, we must accept that we cannot control the attackers. There will always be new flaws, new techniques and new tools. What we can control is our preparation: how quickly we see a threat, how quickly we close it, and how honestly we measure ourselves. That is the work of the Range Safety Officer, and in the Gnostic Enterprise, it is everyone's work.
+Back to the launchpad. That termination button is the reason the rocket is allowed to fly at all. Give your organisation the same: eyes on every threat, a fast way to close it, and the authority to stop anything – or any agent – that strays. Then launch as often as you like.
 
 > Security is not the reason we cannot launch. It is the reason we can.
