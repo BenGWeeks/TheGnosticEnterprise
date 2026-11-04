@@ -2,17 +2,33 @@
 
 image::AI-Images/Dyson%20Sphere.png[float=center,align=center]
 
-Welcome to the world of cloud and low-code, where organizations can create, launch, and manage solutions with lightning speed and ease! With these game-changing technologies, organizations can streamline their processes, increase collaboration and teamwork, and deliver top-notch solutions that exceed customer expectations.
+Let's be brutally honest: most organisations aren't slow because their people are slow. They're slow because building anything means queuing for servers, waiting on a specialist team, and watching six weeks quietly become six months. The good news? The tools to fix that are already on the table. Cloud, low-code and AI agents have changed what "fast" means – and if you're not using all three, someone you compete with probably is.
 
-First, let's take a look at cloud technologies. They're changing the way we store and access information. Instead of storing data on physical servers in a single location, cloud computing lets us keep it on remote servers accessible from anywhere, anytime. This gives organizations greater flexibility and scalability, which is crucial in today's rapidly changing business landscape.
+Start with the cloud. It changed the way we store and access information. Instead of keeping data on physical servers in a single location, we keep it on remote servers accessible from anywhere, any time. No hardware to order, no data centre to run. Spin up what you need, scale it when demand spikes, switch it off when you're done. That flexibility is crucial in a business landscape that changes faster than any procurement cycle. Think of the cloud as the launchpad – everything else in this chapter takes off from it.
 
-Low-code platforms take things a step further by making it possible to create custom applications without writing complex code. Instead, with a drag-and-drop interface and pre-built templates, even non-technical employees can build solutions that perfectly meet their organization's needs. And since low-code solutions can be deployed and scaled quickly, organizations can get to market faster than their competition.
+Low-code platforms take things a step further by making it possible to create custom applications without writing complex code. With drag-and-drop interfaces and pre-built templates, the people closest to the problem – often not developers at all – can build solutions that meet their organisation's actual needs. And because low-code solutions deploy and scale quickly, you can be in front of users while the competition is still polishing the requirements document.
 
-So, why should your organization consider cloud and low-code? Here are just a few benefits:
+Here's the kicker: the biggest shift isn't cloud or low-code. It's AI agents.
 
-- *Speed*: Say goodbye to long wait times and hello to fast, efficient solution delivery.
-- *Flexibility*: No more rigid, inflexible solutions. Cloud and low-code allow you to adapt to changing needs on the fly.
-- *Scalability*: Your solutions can grow and evolve right alongside your business.
-- *Collaboration*: Teams can work together, no matter where they are, thanks to the power of cloud computing.
+An agent isn't just a chatbot answering questions. It's a teammate that can take a goal, break it down and do the work – drafting user stories, generating code, writing tests. _Picture this_: a product owner and an engineer sit down with an agent on Monday morning, and by lunchtime they're clicking through a working prototype of something that would once have taken a whole squad weeks to build. That's not some far-off future. It's happening today.
 
-By embracing cloud and low-code, organizations can unleash their potential and unleash their full innovation potential. It's time to harness the power of knowledge and innovation, and deliver value like never before. With cloud and low-code in your toolkit, the sky's the limit!
+But – and it's a big but – speed without control is just a faster way to crash. Agents need guardrails:
+
+* *Clear scope* – Tell the agent exactly what it may and may not touch. Give it a well-prepared backlog item, not a vague wish.
+* *Least privilege* – Agents get the access they need for the task and nothing more. No production keys "just in case".
+* *Human review* – Every change an agent makes is reviewed and approved by a person before it ships. The agent proposes; the human decides.
+* *Audit trail* – Know what the agent did, when and why. If you can't explain it to an auditor, it doesn't go live.
+
+None of this replaces your people. It amplifies them. The engineer stops typing boilerplate and starts thinking about architecture. The humans stay in mission control; the agents do the heavy lifting.
+
+So, why should your organisation embrace cloud, low-code and agentic delivery? Here are just a few benefits:
+
+* *Speed* – Say goodbye to long wait times. Ideas become prototypes in hours, not quarters.
+* *Flexibility* – Adapt to changing needs on the fly.
+* *Scalability* – Your solutions grow and evolve right alongside your business.
+* *Collaboration* – Teams work together from anywhere, with agents as part of the crew.
+* *Focus* – People spend their time on judgement, creativity and customers, not repetitive grunt work.
+
+What should you actually do come Monday morning? Pick one small, real problem. Give a small squad cloud access, a low-code platform and an AI agent, set the guardrails, and time-box it to a week. Then look at what they built – and ask yourself why everything doesn't work this way.
+
+With cloud, low-code and agents in your toolkit, the sky's the limit.
