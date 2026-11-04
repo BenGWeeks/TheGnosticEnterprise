@@ -19,6 +19,8 @@ But – and it's a big but – speed without control is just a faster way to cra
 * *Human review* – Every change an agent makes is reviewed and approved by a person before it ships. The agent proposes; the human decides.
 * *Audit trail* – Know what the agent did, when and why. If you can't explain it to an auditor, it doesn't go live.
 
+We'll come back to these – the flight rules – later in the book.
+
 None of this replaces your people. It amplifies them. The engineer stops typing boilerplate and starts thinking about architecture. The humans stay in mission control; the agents do the heavy lifting.
 
 So, why should your organisation embrace cloud, low-code and agentic delivery? Here are just a few benefits:
@@ -31,4 +33,4 @@ So, why should your organisation embrace cloud, low-code and agentic delivery? H
 
 What should you actually do come Monday morning? Pick one small, real problem. Give a small squad cloud access, a low-code platform and an AI agent, set the guardrails, and time-box it to a week. Then look at what they built – and ask yourself why everything doesn't work this way.
 
-With cloud, low-code and agents in your toolkit, the sky's the limit.
+With cloud, low-code and agents in your toolkit, the sky stopped being the limit a while ago.

@@ -2,7 +2,7 @@
 
 image::AI-Images/Centre%20of%20Excellence%2001.png[float=center,align=center]
 
-Let's be brutally honest: most organisations don't have a technology problem. They have a "nobody's in charge of how we use it" problem. One department is running its own cloud subscriptions, another is building low-code apps nobody has heard of, a third is quietly feeding customer data into an AI tool, and the data team is trying to make sense of it all.
+Here's the thing: most organisations don't have a technology problem. They have a "nobody's in charge of how we use it" problem. One department is running its own cloud subscriptions, another is building low-code apps nobody has heard of, a third is quietly feeding customer data into an AI tool, and the data team is trying to make sense of it all.
 
 A Centre of Excellence (CoE) fixes that. It's a central hub for technology expertise, processes and knowledge across your organisation – covering cloud, low-code, data, AI and agents, and the T-Minus-15 way of working that ties them together. Think of it as mission control: it doesn't fly every rocket, but it makes sure every launch is safe, coordinated and pointed in the right direction. This chapter explores why a CoE matters and how to set one up.
 
@@ -38,11 +38,11 @@ Portfolio management keeps the CoE honest. It makes sure the work being done lin
 
 === Architecture & Standards
 
-The Architecture & Standards group exists to help the agile delivery squads succeed. By creating frameworks, blueprints, reusable templates and standards – for cloud landing zones, low-code environments, data models and agent guardrails alike – it helps squads deliver high-value, high-quality solutions at a high cadence. Here's the kicker: this group can be the difference between teams getting solutions to production quickly and teams bogged down by a wall of rigid standards. Take a facilitative approach, not a gatekeeping one. Enable teams to deliver value fast while still making sure solutions are high quality and meet every necessary requirement, and the Architecture & Standards group helps the company achieve its strategic vision.
+The Architecture & Standards group exists to help the agile delivery squads succeed. By creating frameworks, blueprints, reusable templates and standards – for cloud landing zones, low-code environments, data models and agent guardrails alike – it helps squads deliver high-value, high-quality solutions at a high cadence. Make no mistake: this group can be the difference between teams getting solutions to production quickly and teams bogged down by a wall of rigid standards. Take a facilitative approach, not a gatekeeping one. Enable teams to deliver value fast while still making sure solutions are high quality and meet every necessary requirement, and the Architecture & Standards group helps the company achieve its strategic vision.
 
 === Communities of Practice
 
-The CoE should be responsible for creating Communities of Practice (CoP) around topics such as AI, low-code, blockchain, automation, testing, DevOps, and agile. These CoPs should bring together experts from across the squads and organisation to share knowledge and best practices.
+The CoE should be responsible for creating Communities of Practice (CoP) around topics such as AI, low-code, security, automation, testing, DevOps, and agile. These CoPs should bring together experts from across the squads and organisation to share knowledge and best practices.
 
 === Innovation Squad
 
@@ -64,4 +64,4 @@ image::Images/Iterative%20Improvement.png[float=center,align=center,width=75%]
 
 === Performance of the CoE
 
-The CoE should also use metrics to measure its performance, including State of DevOps metrics to track the speed and efficiency of the delivery process. But don't stop at the numbers. Team happiness matters just as much when making decisions: a happy team is more likely to deliver value to customers, leading to a higher customer Net Promoter Score (NPS).
+The CoE should also use metrics to measure its performance, including DORA (State of DevOps) metrics to track the speed and efficiency of the delivery process. But don't stop at the numbers. Team happiness matters just as much when making decisions: a happy team is more likely to deliver value to customers, leading to a higher customer Net Promoter Score (NPS).
