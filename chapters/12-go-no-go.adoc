@@ -1,0 +1,72 @@
+== Go/No-Go: Epics and Lean Business Cases
+
+> Or, Deciding What Deserves to Fly
+
+Minutes before a launch, mission control goes quiet for the go/no-go poll. The launch manager calls each station in turn, and each answers with a single word: go, or no-go. NASA's own policy is blunt about what this means: a "Go" statement is required from all parties polled before the countdown can enter its final phase{empty}footnote:[NASA Policy Directive NPD 8610.24C, _Launch Services Program Pre-Launch Readiness Reviews_, https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PD_8610_024C_]. Nor is the poll the only decision. It is the last in a series of readiness reviews held in the weeks and days before launch, each one a deliberate chance to say "not yet".
+
+Now compare that with how many organisations spend their money. A project is approved once, often on the strength of a long document written before anyone really knew the answer, and from then on it rolls forward under its own momentum. Nobody polls the stations again. Nobody is quite sure who could say no-go, or when.
+
+A lean business case gives every significant investment its own go/no-go poll: a deliberate point at which we decide, on the evidence, whether it deserves to fly.
+
+=== What Is an Epic?
+
+In agile language, an investment of this size is called an epic. The Scaled Agile Framework (SAFe®) defines an epic simply as "a significant solution development initiative", and requires each one to have a Minimum Viable Product (MVP), a Lean business case and an estimate of costs{empty}footnote:[Scaled Agile Framework, "Epic", https://framework.scaledagile.com/epic/].
+
+The MVP is the key idea. Rather than build the whole vision in one go, we build the smallest version that can prove or disprove the idea, put it in front of real users, and learn. If it works, we grow it. If it doesn't, we stop, having spent a fraction of the money.
+
+Before anyone discusses _how_ an epic will be built, two questions matter. In T-Minus-15, our open-source delivery methodology, we put them this way: "Why do we need this epic? What value are we delivering to the business?"{empty}footnote:[T-Minus-15, "PREP: Decoding the client's wants and needs", https://github.com/T-Minus-15/book] If nobody can answer them clearly, no amount of clever engineering will rescue the investment.
+
+.Once an epic is go, it flows from idea to production; what it does in production tells us whether to grow it or stop.
+image::Idea to Production.png[float=center,align=center]
+
+=== The Lean Business Case
+
+A traditional business case tries to predict the future: dozens of pages, a confident return on investment and a delivery date years away. A lean business case is honest about what we don't yet know. It fits on a page and reads as a hypothesis to be tested, not a promise to be kept. It sets out:
+
+- *The problem and who has it*: a short value statement naming the people who will benefit, the need they have, and why today's alternatives fall short.
+- *The outcome hypothesis*: what we believe will change for the business if we succeed, and how we will measure it.
+- *Leading indicators*: early signs, measurable while the work is under way, that tell us whether we are on track, long before the final outcome is known.
+- *The MVP scope*: the smallest thing we can build to test the hypothesis.
+- *A cost and effort range*: an honest range, not a falsely precise figure, for both the MVP and the full vision.
+- *The cost of delay*: what we lose for every month we don't do this. It is often the most revealing number on the page.
+- *Risks*: what could go wrong, and what we would do about it.
+
+One rule matters above all: don't invent numbers. The T-Minus-15 guidance for epics is to use percentages only when we have the data to define them with confidence{empty}footnote:[T-Minus-15, "Epic metadata", https://github.com/T-Minus-15/book/blob/main/appendices/epic-metadata.adoc]. A made-up figure on a business case is worse than none, because it gives false confidence to the very decision the case exists to inform.
+
+The first go decision funds only the MVP. Once the MVP is in users' hands, we poll the stations again, this time with evidence. There are three answers. _Go_: the hypothesis is holding up, so we invest further. _Pivot_: we have learned something important, so we change direction. _Stop_: the hypothesis was wrong, so we close the epic and move the money elsewhere. Eric Ries made "pivot or persevere" famous in _The Lean Startup_{empty}footnote:[Eric Ries, _The Lean Startup_, Crown Business, 2011]; the lean business case simply writes down, in advance, what evidence will drive that choice.
+
+> A fat business case predicts the future. A lean one sets out to test it.
+
+Stopping an epic after its MVP is not a failure. It is the system working exactly as designed: a small, cheap lesson instead of a large, expensive one.
+
+=== Fund Outcomes, Keep Re-deciding
+
+This changes how leaders fund work. Instead of approving projects once a year and hoping, SAFe's Lean Portfolio Management uses Lean budgets to fund value streams aligned with the business strategy and its strategic themes, tests the outcome hypothesis with an MVP before committing to a more significant investment, and adjusts the strategy when the facts say a pivot is needed{empty}footnote:[Scaled Agile Framework, "Lean Portfolio Management", https://framework.scaledagile.com/lean-portfolio-management-discipline].
+
+Strategic themes are the link between the boardroom and the backlog. Every epic should serve at least one, and if it serves none, the business case should say why it deserves money at all. In the next chapter, we will see how the Centre of Excellence uses that alignment of epics to strategic themes to pick the best candidates for delivery.
+
+The portfolio also needs a work-in-progress (WIP) limit. SAFe visualises and limits WIP through a portfolio Kanban, and removes work that no longer moves the strategy forward{empty}footnote:[Scaled Agile Framework, "Lean Portfolio Management", https://framework.scaledagile.com/lean-portfolio-management-discipline]. The logic is the same as for a squad: start fewer things, finish them, and learn faster. An organisation with forty epics in flight has, in practice, no priorities at all.
+
+=== What AI Changes
+
+AI agents are changing the economics of the MVP. Work that once took a squad several sprints to prototype can now be built, by people working with agents, in a fraction of the time. That is very good news: when an MVP is cheap, we can afford to test more ideas, and to test them sooner.
+
+But it makes the discipline matter more, not less. When building is cheap, the temptation is to skip the thinking and simply build. Yet an MVP without a hypothesis teaches us nothing, because we never said what we expected to learn. And the cost of building is only part of the cost. Every feature that reaches production still has to be run, supported, secured and understood, and it still claims the attention of the people who must use it.
+
+Agents can help with the case itself. At KnowAll, our agent Preppie helps draft lean business cases, asking the questions a good analyst would ask: who exactly is this for, what would failure look like, what is the cost of not doing it? Agents can also track leading indicators continuously, rather than waiting for a quarterly review. What they should not do is make the decision. Go, pivot or stop is a judgement about money, people and risk, and a named human must make it and answer for it.
+
+=== What Leaders Should Ask
+
+Funding is a leadership decision, not just a financial one. Ask your teams:
+
+- For each epic we are funding, can someone answer in a sentence: why do we need it, and what value will it deliver?
+- What is our hypothesis, and what evidence would prove it wrong?
+- Which leading indicators are we watching, and what are they telling us today?
+- Have we funded the MVP, or the whole vision?
+- When is the next go/no-go decision, and who will make it?
+- When did we last stop an epic, and did we treat it as a success?
+- How many epics are in flight, and which strategic theme does each one serve?
+
+In Stoic fashion, we must accept that we cannot know in advance which ideas will succeed. Markets shift, users surprise us, and good ideas sometimes fail. What we can control is how we decide: small bets, clear hypotheses, honest evidence, and the courage to say no-go when the evidence says so.
+
+> The go/no-go poll is not there to stop the launch. It is there to make sure that when we go, we mean it.

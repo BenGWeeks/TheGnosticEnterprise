@@ -34,13 +34,15 @@ include::chapters/10-employee-and-customer-happiness.adoc[]
 
 include::chapters/11-continuous-learning-and-improvement.adoc[]
 
-include::chapters/12-the-cloud-centre-of-excellence.adoc[]
+include::chapters/12-go-no-go.adoc[]
 
-include::chapters/13-flight-rules.adoc[]
+include::chapters/13-the-cloud-centre-of-excellence.adoc[]
 
-include::chapters/14-range-safety.adoc[]
+include::chapters/14-flight-rules.adoc[]
 
-include::chapters/15-summary.adoc[]
+include::chapters/15-range-safety.adoc[]
+
+include::chapters/16-summary.adoc[]
 
 include::AboutTheAuthors.adoc[]
 
