@@ -41,7 +41,8 @@ To read this book, see [book.adoc](https://github.com/BenGWeeks/TheGnosticEnterp
 + Chapter 10: [Employee Happiness = Customer Happiness](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/10-employee-and-customer-happiness.adoc)
 + Chapter 11: [Continuous Learning and Improvement](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/11-continuous-learning-and-improvement.adoc)
 + Chapter 12: [Building a Cloud Centre of Excellence](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/12-the-cloud-centre-of-excellence.adoc)
-+ Chapter 13: [Summary](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/13-summary.adoc)
++ Chapter 13: [Range Safety: Security by Design](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/13-range-safety.adoc)
++ Chapter 14: [Summary](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/14-summary.adoc)
 
 ## Source
 

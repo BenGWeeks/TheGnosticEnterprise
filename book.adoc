@@ -36,7 +36,9 @@ include::chapters/11-continuous-learning-and-improvement.adoc[]
 
 include::chapters/12-the-cloud-centre-of-excellence.adoc[]
 
-include::chapters/13-summary.adoc[]
+include::chapters/13-range-safety.adoc[]
+
+include::chapters/14-summary.adoc[]
 
 include::AboutTheAuthors.adoc[]
 
