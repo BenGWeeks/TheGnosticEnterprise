@@ -40,7 +40,7 @@ To read this book, see [book.adoc](https://github.com/BenGWeeks/TheGnosticEnterp
 + Chapter 9: [Bringing Teams Together: The Power of Collaboration](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/09-bringing-teams-together.adoc)
 + Chapter 10: [Happy Team = Happy Customer](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/10-happy-team-happy-customer.adoc)
 + Chapter 11: [Continuous Learning and Improvement](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/11-continuous-learning-and-improvement.adoc)
-+ Chapter 12: [Building a Cloud Centre of Excellence](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/12-the-cloud-centre-of-excellence.adoc)
++ Chapter 12: [Building a Centre of Excellence](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/12-the-cloud-centre-of-excellence.adoc)
 + Chapter 13: [Summary](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/13-summary.adoc)
 
 ## Source

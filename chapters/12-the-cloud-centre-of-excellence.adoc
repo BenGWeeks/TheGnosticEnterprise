@@ -1,4 +1,4 @@
-== Building a Cloud Centre of Excellence
+== Building a Centre of Excellence
 
 image::AI-Images/Centre%20of%20Excellence%2001.png[float=center,align=center]
 
