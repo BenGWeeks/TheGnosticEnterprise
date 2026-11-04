@@ -30,7 +30,7 @@ include::chapters/08-automate-everything-unhuman.adoc[]
 
 include::chapters/09-bringing-teams-together.adoc[]
 
-include::chapters/10-employee-and-customer-happiness.adoc[]
+include::chapters/10-happy-team-happy-customer.adoc[]
 
 include::chapters/11-continuous-learning-and-improvement.adoc[]
 

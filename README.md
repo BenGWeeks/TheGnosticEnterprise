@@ -38,7 +38,7 @@ To read this book, see [book.adoc](https://github.com/BenGWeeks/TheGnosticEnterp
 + Chapter 7: [The Power of Data: Making Smarter Decisions](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/07-the-power-of-data.adoc)
 + Chapter 8: [Automate Everything Unhuman](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/08-automate-everything-unhuman.adoc)
 + Chapter 9: [Bringing Teams Together: The Power of Collaboration](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/09-bringing-teams-together.adoc)
-+ Chapter 10: [Employee Happiness = Customer Happiness](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/10-employee-and-customer-happiness.adoc)
++ Chapter 10: [Happy Team = Happy Customer](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/10-happy-team-happy-customer.adoc)
 + Chapter 11: [Continuous Learning and Improvement](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/11-continuous-learning-and-improvement.adoc)
 + Chapter 12: [Building a Cloud Centre of Excellence](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/12-the-cloud-centre-of-excellence.adoc)
 + Chapter 13: [Summary](https://github.com/BenGWeeks/TheGnosticEnterprise/blob/main/chapters/13-summary.adoc)

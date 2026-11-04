@@ -1,4 +1,4 @@
-== Employee Happiness = Customer Happiness
+== Happy Team = Happy Customer
 
 image::AI-Images/Happy%20Employees%20Happy%20Customers.png[float=center,align=center]
 
