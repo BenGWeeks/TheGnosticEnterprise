@@ -9,7 +9,7 @@ This is a business book project titled "The Gnostic Enterprise: Harnessing the P
 ## Project Structure
 
 - **Main file**: `book.adoc` - Master document that includes all chapters
-- **Chapters**: Located in `chapters/` directory, numbered 01-14 with kebab-case naming
+- **Chapters**: Located in `chapters/` directory, numbered 01-15 with kebab-case naming
 - **Images**: 
   - `ai-images/` - AI-generated illustrations (MidJourney)
   - `images/` - Traditional diagrams and business illustrations

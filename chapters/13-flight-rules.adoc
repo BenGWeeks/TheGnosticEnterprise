@@ -1,0 +1,83 @@
+== Flight Rules: Guardrails That Speed You Up
+
+> Or, Deciding Calmly So You Can Move Quickly
+
+In mission control, the worst time to work out what to do is when the alarm is already sounding. So NASA doesn't. Long before launch, flight controllers write _flight rules_: decisions made calmly and in advance about what the team will do if something goes wrong. If this happens, we do that.
+
+The practice grew up during Apollo. A NASA report on the programme argued that who has the authority to act, and what the action should be, must be settled before the mission wherever possible, because a lack of action caused by unclear responsibility "can be just as disastrous as the wrong action". The rules paid off: they enabled prompt and accurate preplanned action for 80 percent of the in-flight failures that occurred during Apollo{empty}footnote:[L. W. Keyser, _Apollo Experience Report: The Role of Flight Mission Rules in Mission Preparation and Conduct_, NASA TN D-7822, November 1974, https://ntrs.nasa.gov/citations/19750002893].
+
+Flight rules are not there to stop the mission. They are what let it move fast without being reckless. Think of the brakes on a car. They are not there to slow you down; they are the reason you dare to drive quickly at all.
+
+The Gnostic Enterprise needs flight rules too, now more than ever, because its crew includes AI agents as well as people.
+
+=== Guardrails, Not Gates
+
+Most organisations already have rules; the trouble is how they are enforced. The traditional answer is a gate: an approval board, a sign-off, a change meeting that sits once a fortnight. Gates feel safe, but every change waits in a queue, so teams bundle changes together to pass through less often, and bigger bundles carry bigger risks. The gate creates the very danger it was meant to prevent.
+
+A guardrail runs alongside the road rather than across it. You keep moving at speed, and it only comes into play when you drift towards the edge. In practice, that means:
+
+- *Paved roads*: a standard, well-supported way to do common things, such as a starter project, a pipeline or a cloud environment, already set up the safe way. Teams may leave the paved road, but most won't, because it is also the quickest route.
+- *Templates and defaults*: when the safe choice is the default, nobody has to remember to make it.
+- *Policy as code*: rules written as code and checked automatically, every time and in seconds, rather than by a person with a checklist once a month.
+
+> A gate asks for permission every time. A guardrail grants it in advance, for everything that stays on the road.
+
+=== Flight Rules for Delivery Teams
+
+For an agile squad, many flight rules already exist; they just need writing down and automating. In T-Minus-15, our open-source delivery methodology{empty}footnote:[T-Minus-15, an open-source delivery methodology, https://github.com/T-Minus-15/book], we put it this way: "A codebase without guardrails is a freeway without lanes." The essentials are:
+
+- *A Definition of Done*: an agreed answer to "what does done mean?" for each stage of the work, so quality is not a matter of opinion.
+- *Branch and repository policies*: every change arrives as a pull request, is reviewed by at least one other person, and cannot merge unless the build succeeds.
+- *Automated tests and pipelines*: every change is built, tested and checked the same way, every time.
+- *Environments*: changes move from engineering, to test, to production, and production is changed only by the pipeline, never by hand.
+
+None of this is bureaucracy. Because the checks run automatically, a squad can safely ship many small changes rather than a few large, risky ones.
+
+=== Flight Rules for AI Agents
+
+This is where flight rules matter most. A traditional program does the same thing every time; an AI agent does not. Agents are probabilistic: usually right, sometimes brilliantly so, and occasionally wrong with great confidence. That is not a reason to keep them out of your enterprise. It is a reason to decide, in advance, how they are allowed to work:
+
+- *A register of agents*: every agent is listed, with what it does and a named human owner who answers for it.
+- *Least privilege*: each agent has only the access its job needs.
+- *Draft, then approve*: for anything that cannot easily be undone, such as contacting a client, spending money or changing production, the agent prepares the work and a person approves it.
+- *Audit trails*: every action is logged against the agent's own identity.
+- *Automated evaluations*: agents are tested against known examples before they are trusted with a task, and again whenever their model, instructions or tools change.
+- *Spending caps*: limits on cost and usage, so an agent stuck in a loop costs pennies rather than a fortune.
+- *A kill switch*: any agent can be paused at once by its owner, without waiting for a meeting.
+
+At KnowAll, we run our own business this way. Our agents work alongside our people: Sallie drafts proposals, Preppie prepares the backlog, Poppie plans the work, and in our Purple Team, Pennie tests systems while Ollie defends and fixes them. Throughout, a human approves before anything reaches a client or production. Sallie asks in Microsoft Teams before a proposal goes out{empty}footnote:[KnowAll AI, https://www.knowall.ai]. The Purple Team tests nothing without written authorisation, and every fix arrives as a pull request, with a test that proves it, for a person to review and merge{empty}footnote:[KnowAll AI Purple Team, https://www.knowall.ai/purple-team]. Far from slowing the agents down, those rules are the reason we can let them work at all.
+
+Some of these rules reappear in the next chapter, on security. The difference is the threat: here we guard against the honest mistake; Range Safety guards against the attacker.
+
+=== Who Owns the Flight Rules?
+
+At NASA, flight rules are agreed before the mission by the people who will fly it. In the Gnostic Enterprise, the Centre of Excellence we described in the previous chapter, through its Architecture & Standards role, should own them: setting them, publishing them, building the paved roads that make them easy to follow, and evolving them.
+
+Ownership is not control. Any squad should be able to propose a change; the best proposals come from the people who meet the rules every day.
+
+And resist the urge to pile on. After an incident, the instinct is to add another rule, another sign-off, another gate. Instead, hold a blameless retrospective and ask what actually failed. Often the answer is a better default, a sharper test, or a rule to remove because everyone was working around it. A rulebook that only ever grows becomes a gate in disguise.
+
+=== Are the Rules Helping?
+
+If flight rules are meant to speed you up, you should be able to see it. The DORA research programme offers well-tested measures of software delivery, including change lead time (how long a change takes to reach production) and change fail rate (how often a change causes a failure). Its research has repeatedly found that speed and stability are not trade-offs{empty}footnote:[DORA, "DORA's software delivery performance metrics", https://dora.dev/guides/dora-metrics-four-keys/].
+
+So watch the two together. If lead time creeps up, look for a rule that has quietly become a gate. If failures creep up, look for a gap in the guardrails. For the security measures, we turn to Range Safety in the next chapter.
+
+.Example team delivery cockpit, showing DORA measures alongside quality and security scores
+image::Team Delivery Cockpit.png[float=center,align=center]
+
+=== What Leaders Should Ask
+
+Flight rules are a leadership decision, not just a technical one. Ask your teams:
+
+- Which of our rules are automated guardrails, and which are gates that make work wait?
+- Is our Definition of Done checked by our tools, or only by people?
+- Does every AI agent we run have a named human owner?
+- Which actions can an agent take without a person approving, and can every one of them be undone?
+- If an agent went wrong right now, how quickly could we switch it off and see what it had done?
+- Who owns our flight rules, and when did we last remove one?
+- Are our lead time and change fail rate improving together?
+
+In Stoic fashion, we must accept that we cannot control every failure. Rockets misbehave, code breaks and AI agents make mistakes. What we can control is our preparation: deciding calmly, in advance, what we will do, so that when the moment comes, nobody has to improvise.
+
+> Good brakes are not there to slow you down. They are why you dare to go fast.
